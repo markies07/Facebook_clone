@@ -12,18 +12,22 @@
 .column{
   display: flex;
   flex-direction: column;
-  gap: 3px;
 }
 .sidebar-icons{
-  height: 43px;
+  height: 40px;
   display: flex;
   font-size: 23px;
   justify-content: center;
   align-items: center;
-
 }
-
-
+.sidebar-icon{
+  height: 40px;
+  display: flex;
+  font-size: 23px;
+  margin-top: 1px;
+  justify-content: center;
+  align-items: center;
+}
 .sidebar-pic{
   display: flex;
   width: 25px;
@@ -37,7 +41,34 @@
   cursor: pointer;
   border-radius: 10px;
   width: 45px;
-
   margin: auto;
+}
+.divider{
+  margin-top: 10px;
+  margin-left: 17px;
+  width: 30px;
+  height: 1px;
+  background-color: rgb(211, 211, 211);
+  display: inline-block;
+}
+.second-group{
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.first-group{
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.dots{
+  background-color: rgb(228, 225, 225);
+  padding: 4px;
+  border-radius: 50%;
+}
+.dots:hover{
+  cursor: pointer;
+  background-color: rgb(212, 212, 212);
   
 }
