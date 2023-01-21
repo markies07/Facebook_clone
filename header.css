@@ -24,6 +24,7 @@ body{
 .fb-logo{
   width: 145px;
   margin-left: 3px;
+  cursor: pointer;
 }
 .search-icon{
   font-size: 20px;
@@ -38,6 +39,10 @@ body{
   margin-left: 8px;
   background-color: rgb(241, 241, 241);
 }
+.search-button:hover{
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+}
 /*Right Part*/
 .right{
   display: flex;
@@ -49,40 +54,50 @@ body{
   margin-top: 3px;
 }
 .buttons{
+  position: relative;
   border: none;
   height: 40px;
   width: 40px;
   border-radius: 50%;
   margin-left: 8px;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(221, 221, 221);
+}
+.buttons:hover{
+  cursor: pointer;
+  background-color:rgb(209, 209, 209);
 }
 .mini-pic{
   margin-top: 2px;
   width: 40px;
   margin-left: 8px;
   border-radius: 50%;
+  
 }
-.down{
-  position: absolute;
-  top: 33px;
-  right: 15px;
-  background-color: lightgray;
+.mini-pic:hover{
+  cursor: pointer;
+  filter: brightness(95%);
+}
+.profile-icon{
+  position: relative;
+}
+.down-icon{
+  font-size: 15px;
+  background-color: rgb(228, 228, 228);
   border-style: solid;
   border-color: white;
   border-width: 2px;
   border-radius: 50%;
-  height: 12px;
-  width: 12px;
 }
-.down-icon{
-  margin-top: -5px;
-  margin-left: -2px;
-  font-size: 16px;
+
+.down{
+  position: absolute;
+  top: 25px;
+  left: 35px;
 }
 .count1{
   position: absolute;
-  top: 2px;
-  right: 110px;
+  top: -5px;
+  left: 27px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(233, 0, 0);
   color: white;
@@ -93,8 +108,8 @@ body{
 }
 .count2{
   position: absolute;
-  top: 2px;
-  right: 63px;
+  top: -5px;
+  left: 27px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(233, 0, 0);
   color: white;
